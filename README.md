@@ -1,2 +1,2 @@
 # PushBulletAPI
-PushBullet simple API to add users and send notificaitons
+PushBullet simple API to add users and send notifications

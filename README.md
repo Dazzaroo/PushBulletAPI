@@ -3,8 +3,11 @@ PushBullet simple API to add users and send notifications
 
 # Development
 The API is written in Java and developed using the following:
+
 (1) Spring Boot on Eclipse IDE
+
 (2) Apache Tomcat
+
 (3) Tested with Postman
 
 # Usage (assuming localhost web server)
@@ -41,6 +44,7 @@ The API is written in Java and developed using the following:
 # To Run Web Server (Apache Tomcat)
 
 (1) Run PushBulletApplication.java as an application from Eclipse to start.
+
 (2) Run the Maven Build for PushBulletBBC. A jar should be created as ~/target/PushBulletBBC-1.0-SNAPSHOT.jar which can be run standalone.
   
   

@@ -52,7 +52,7 @@ public class PushBulletController {
     public ResponseEntity<?> sendNotification(@RequestBody PushBulletNotificationRequest pushBulletNotificationRequest) {
     	ResponseEntity<String> responseEntity;
     	try {
-    	  PushBulletBBCService pushBulletService = new PushBulletBBCService(pushBulletRepository); /* TODO put in constructor of controller */
+    	  PushBulletBBCService pushBulletService = new PushBulletBBCService(pushBulletRepository); 
      	  responseEntity = pushBulletService.SendNotification(pushBulletNotificationRequest);
     	} catch(IllegalArgumentException ex) {
     		return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);

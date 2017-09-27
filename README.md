@@ -10,6 +10,10 @@ The API is written in Java and developed using the following:
 
 (3) Tested with Postman
 
+# Deployed to AWS
+
+URL for gettings users: http://pushbulletapi-env-1.etf8835hxw.eu-west-1.elasticbeanstalk.com/api/pushbullet/user
+
 # Usage (assuming localhost web server)
 
 (1) Create a User 
